@@ -1,5 +1,5 @@
 {
-  "name": "pointr",
+  "name": "pointr-animation",
   "private": true,
   "workspaces": [
     "packages/*",
