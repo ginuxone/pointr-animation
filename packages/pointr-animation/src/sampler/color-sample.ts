@@ -1,0 +1,3 @@
+interface ColorSample {
+  Colors: string[];
+}
