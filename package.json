@@ -1,0 +1,8 @@
+{
+  "name": "pointr",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
