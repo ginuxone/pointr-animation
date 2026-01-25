@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div
       ref={containerRef}
-      className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-zinc-900 via-black to-zinc-900"
+      className="relative w-full min-h-screen overflow-hidden bg-linear-to-br from-zinc-900 via-black to-zinc-900"
     >
       {/* Animated background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_var(--mouse-x,50%)_var(--mouse-y,50%),rgba(59,130,246,0.1),transparent_80%)] pointer-events-none transition-all duration-100" />
@@ -87,7 +87,7 @@ export default function Home() {
           </div>
 
           {/* Title */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-300 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-linear-to-r from-blue-400 via-blue-300 to-cyan-300 bg-clip-text text-transparent">
             Pointr Animation
           </h1>
 
@@ -127,7 +127,7 @@ export default function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105">
+            <button className="px-8 py-3 rounded-lg bg-linear-to-r from-blue-500 to-cyan-500 text-white font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105">
               Get Started
             </button>
             <button className="px-8 py-3 rounded-lg border border-blue-500/30 text-blue-300 font-semibold hover:bg-blue-500/10 transition-colors duration-300">
