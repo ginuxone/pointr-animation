@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "npm -r --parallel dev",
     "build": "npm -r build",
-    "demo": "npm --filter ./demo dev",
-    "demo:build": "npm --filter ./demo build"
+    "demo": "npm run dev --prefix ./demo",
+    "demo:build": "npm run build --prefix ./demo"
   }
 }
